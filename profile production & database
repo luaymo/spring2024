@@ -1,0 +1,25 @@
+server:
+  port: 8085
+
+spring:
+  profiles:
+    active: development
+
+  datasource:
+    development:
+      url: jdbc:postgresql://localhost:5432/db_dev
+      username: dev
+      password: dev
+      driver-class-name: org.postgresql.Driver
+
+    test:
+      url: jdbc:postgresql://localhost:5432/db_test
+      username: test
+      password: test
+      driver-class-name: org.postgresql.Driver
+
+    production:
+      url: jdbc:postgresql://production_server:5432/db_prod
+      username: prod
+      password: prod
+      driver-class-name: org.postgresql.Driver
