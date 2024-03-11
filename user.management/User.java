@@ -1,4 +1,4 @@
-package com.example.domain;
+package com.coffeeplace.domain;
 
 public class User {
     private Long id;
