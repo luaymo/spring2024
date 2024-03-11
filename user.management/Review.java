@@ -1,4 +1,4 @@
-package com.example.domain;
+package com.coffeeplace.domain;
 
 public class Review {
     private Long id;
